@@ -1,0 +1,1683 @@
+{
+  "meta": {
+    "title": "SLOB Write-Off Tracker",
+    "currency": "USD",
+    "updated": "2026-09-19",
+    "coverage": "2025-04/2026-09",
+    "monthCount": 18,
+    "skuCount": 12,
+    "sample": true,
+    "note": "Sample SKU-level slow-moving and obsolete inventory (SLOB) with on-hand value, days since last movement, and write-off amounts. Not live finance data."
+  },
+  "catalog": [
+    {
+      "id": "SKU-4102",
+      "name": "Hydraulic seal kit A12",
+      "category": "MRO"
+    },
+    {
+      "id": "SKU-2281",
+      "name": "Filter element F-90",
+      "category": "MRO"
+    },
+    {
+      "id": "SKU-7740",
+      "name": "Motor bearing 6205-2RS",
+      "category": "Spares"
+    },
+    {
+      "id": "SKU-1194",
+      "name": "Gasket set G-330",
+      "category": "MRO"
+    },
+    {
+      "id": "SKU-5528",
+      "name": "Solenoid valve SV-14",
+      "category": "Spares"
+    },
+    {
+      "id": "SKU-8831",
+      "name": "Coupling sleeve CS-7",
+      "category": "Spares"
+    },
+    {
+      "id": "SKU-3066",
+      "name": "O-ring assortment OR-200",
+      "category": "MRO"
+    },
+    {
+      "id": "SKU-6410",
+      "name": "Pump impeller P-55",
+      "category": "Spares"
+    },
+    {
+      "id": "SKU-1907",
+      "name": "Sensor harness SH-8",
+      "category": "Electronics"
+    },
+    {
+      "id": "SKU-8255",
+      "name": "Belt drive B-42",
+      "category": "MRO"
+    },
+    {
+      "id": "SKU-4789",
+      "name": "Heat exchanger plate HX-3",
+      "category": "Spares"
+    },
+    {
+      "id": "SKU-2103",
+      "name": "Lubricant cartridge LC-12",
+      "category": "Consumable"
+    }
+  ],
+  "targets": {
+    "monthlySlob": 700000,
+    "monthlyWriteOff": 18000,
+    "topSkuShare": 0.18
+  },
+  "months": [
+    {
+      "month": "2025-04",
+      "skus": [
+        {
+          "sku": "SKU-4102",
+          "name": "Hydraulic seal kit A12",
+          "onHandValue": 148200,
+          "daysSinceLastMovement": 318,
+          "writeOffAmount": 2700
+        },
+        {
+          "sku": "SKU-2281",
+          "name": "Filter element F-90",
+          "onHandValue": 95300,
+          "daysSinceLastMovement": 207,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-7740",
+          "name": "Motor bearing 6205-2RS",
+          "onHandValue": 85000,
+          "daysSinceLastMovement": 253,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1194",
+          "name": "Gasket set G-330",
+          "onHandValue": 75200,
+          "daysSinceLastMovement": 171,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-5528",
+          "name": "Solenoid valve SV-14",
+          "onHandValue": 66800,
+          "daysSinceLastMovement": 423,
+          "writeOffAmount": 2700
+        },
+        {
+          "sku": "SKU-8831",
+          "name": "Coupling sleeve CS-7",
+          "onHandValue": 58800,
+          "daysSinceLastMovement": 186,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-3066",
+          "name": "O-ring assortment OR-200",
+          "onHandValue": 52500,
+          "daysSinceLastMovement": 276,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-6410",
+          "name": "Pump impeller P-55",
+          "onHandValue": 49100,
+          "daysSinceLastMovement": 147,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1907",
+          "name": "Sensor harness SH-8",
+          "onHandValue": 44300,
+          "daysSinceLastMovement": 237,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-8255",
+          "name": "Belt drive B-42",
+          "onHandValue": 40300,
+          "daysSinceLastMovement": 406,
+          "writeOffAmount": 1600
+        },
+        {
+          "sku": "SKU-4789",
+          "name": "Heat exchanger plate HX-3",
+          "onHandValue": 32700,
+          "daysSinceLastMovement": 155,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-2103",
+          "name": "Lubricant cartridge LC-12",
+          "onHandValue": 27300,
+          "daysSinceLastMovement": 196,
+          "writeOffAmount": 0
+        }
+      ]
+    },
+    {
+      "month": "2025-05",
+      "skus": [
+        {
+          "sku": "SKU-4102",
+          "name": "Hydraulic seal kit A12",
+          "onHandValue": 150600,
+          "daysSinceLastMovement": 323,
+          "writeOffAmount": 2700
+        },
+        {
+          "sku": "SKU-2281",
+          "name": "Filter element F-90",
+          "onHandValue": 95500,
+          "daysSinceLastMovement": 212,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-7740",
+          "name": "Motor bearing 6205-2RS",
+          "onHandValue": 83400,
+          "daysSinceLastMovement": 258,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1194",
+          "name": "Gasket set G-330",
+          "onHandValue": 72900,
+          "daysSinceLastMovement": 176,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-5528",
+          "name": "Solenoid valve SV-14",
+          "onHandValue": 65100,
+          "daysSinceLastMovement": 413,
+          "writeOffAmount": 2600
+        },
+        {
+          "sku": "SKU-8831",
+          "name": "Coupling sleeve CS-7",
+          "onHandValue": 58400,
+          "daysSinceLastMovement": 191,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-3066",
+          "name": "O-ring assortment OR-200",
+          "onHandValue": 53200,
+          "daysSinceLastMovement": 281,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-6410",
+          "name": "Pump impeller P-55",
+          "onHandValue": 49900,
+          "daysSinceLastMovement": 152,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1907",
+          "name": "Sensor harness SH-8",
+          "onHandValue": 44400,
+          "daysSinceLastMovement": 242,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-8255",
+          "name": "Belt drive B-42",
+          "onHandValue": 39500,
+          "daysSinceLastMovement": 396,
+          "writeOffAmount": 1600
+        },
+        {
+          "sku": "SKU-4789",
+          "name": "Heat exchanger plate HX-3",
+          "onHandValue": 31700,
+          "daysSinceLastMovement": 160,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-2103",
+          "name": "Lubricant cartridge LC-12",
+          "onHandValue": 26600,
+          "daysSinceLastMovement": 201,
+          "writeOffAmount": 0
+        }
+      ]
+    },
+    {
+      "month": "2025-06",
+      "skus": [
+        {
+          "sku": "SKU-4102",
+          "name": "Hydraulic seal kit A12",
+          "onHandValue": 151900,
+          "daysSinceLastMovement": 327,
+          "writeOffAmount": 2700
+        },
+        {
+          "sku": "SKU-2281",
+          "name": "Filter element F-90",
+          "onHandValue": 94500,
+          "daysSinceLastMovement": 216,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-7740",
+          "name": "Motor bearing 6205-2RS",
+          "onHandValue": 81100,
+          "daysSinceLastMovement": 262,
+          "writeOffAmount": 3200
+        },
+        {
+          "sku": "SKU-1194",
+          "name": "Gasket set G-330",
+          "onHandValue": 70700,
+          "daysSinceLastMovement": 165,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-5528",
+          "name": "Solenoid valve SV-14",
+          "onHandValue": 64100,
+          "daysSinceLastMovement": 417,
+          "writeOffAmount": 2600
+        },
+        {
+          "sku": "SKU-8831",
+          "name": "Coupling sleeve CS-7",
+          "onHandValue": 58800,
+          "daysSinceLastMovement": 195,
+          "writeOffAmount": 2400
+        },
+        {
+          "sku": "SKU-3066",
+          "name": "O-ring assortment OR-200",
+          "onHandValue": 54100,
+          "daysSinceLastMovement": 285,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-6410",
+          "name": "Pump impeller P-55",
+          "onHandValue": 50300,
+          "daysSinceLastMovement": 156,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1907",
+          "name": "Sensor harness SH-8",
+          "onHandValue": 43900,
+          "daysSinceLastMovement": 231,
+          "writeOffAmount": 1800
+        },
+        {
+          "sku": "SKU-8255",
+          "name": "Belt drive B-42",
+          "onHandValue": 38400,
+          "daysSinceLastMovement": 400,
+          "writeOffAmount": 1500
+        },
+        {
+          "sku": "SKU-4789",
+          "name": "Heat exchanger plate HX-3",
+          "onHandValue": 30700,
+          "daysSinceLastMovement": 164,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-2103",
+          "name": "Lubricant cartridge LC-12",
+          "onHandValue": 26200,
+          "daysSinceLastMovement": 205,
+          "writeOffAmount": 1000
+        }
+      ]
+    },
+    {
+      "month": "2025-07",
+      "skus": [
+        {
+          "sku": "SKU-4102",
+          "name": "Hydraulic seal kit A12",
+          "onHandValue": 151500,
+          "daysSinceLastMovement": 332,
+          "writeOffAmount": 2700
+        },
+        {
+          "sku": "SKU-2281",
+          "name": "Filter element F-90",
+          "onHandValue": 92300,
+          "daysSinceLastMovement": 221,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-7740",
+          "name": "Motor bearing 6205-2RS",
+          "onHandValue": 78500,
+          "daysSinceLastMovement": 252,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1194",
+          "name": "Gasket set G-330",
+          "onHandValue": 69000,
+          "daysSinceLastMovement": 170,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-5528",
+          "name": "Solenoid valve SV-14",
+          "onHandValue": 64000,
+          "daysSinceLastMovement": 422,
+          "writeOffAmount": 2600
+        },
+        {
+          "sku": "SKU-8831",
+          "name": "Coupling sleeve CS-7",
+          "onHandValue": 59700,
+          "daysSinceLastMovement": 200,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-3066",
+          "name": "O-ring assortment OR-200",
+          "onHandValue": 54900,
+          "daysSinceLastMovement": 290,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-6410",
+          "name": "Pump impeller P-55",
+          "onHandValue": 50200,
+          "daysSinceLastMovement": 146,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1907",
+          "name": "Sensor harness SH-8",
+          "onHandValue": 42900,
+          "daysSinceLastMovement": 236,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-8255",
+          "name": "Belt drive B-42",
+          "onHandValue": 37200,
+          "daysSinceLastMovement": 405,
+          "writeOffAmount": 1500
+        },
+        {
+          "sku": "SKU-4789",
+          "name": "Heat exchanger plate HX-3",
+          "onHandValue": 30000,
+          "daysSinceLastMovement": 169,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-2103",
+          "name": "Lubricant cartridge LC-12",
+          "onHandValue": 26200,
+          "daysSinceLastMovement": 210,
+          "writeOffAmount": 0
+        }
+      ]
+    },
+    {
+      "month": "2025-08",
+      "skus": [
+        {
+          "sku": "SKU-4102",
+          "name": "Hydraulic seal kit A12",
+          "onHandValue": 149100,
+          "daysSinceLastMovement": 352,
+          "writeOffAmount": 2700
+        },
+        {
+          "sku": "SKU-2281",
+          "name": "Filter element F-90",
+          "onHandValue": 89500,
+          "daysSinceLastMovement": 226,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-7740",
+          "name": "Motor bearing 6205-2RS",
+          "onHandValue": 76200,
+          "daysSinceLastMovement": 272,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1194",
+          "name": "Gasket set G-330",
+          "onHandValue": 68300,
+          "daysSinceLastMovement": 190,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-5528",
+          "name": "Solenoid valve SV-14",
+          "onHandValue": 64700,
+          "daysSinceLastMovement": 442,
+          "writeOffAmount": 2600
+        },
+        {
+          "sku": "SKU-8831",
+          "name": "Coupling sleeve CS-7",
+          "onHandValue": 60800,
+          "daysSinceLastMovement": 220,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-3066",
+          "name": "O-ring assortment OR-200",
+          "onHandValue": 55100,
+          "daysSinceLastMovement": 295,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-6410",
+          "name": "Pump impeller P-55",
+          "onHandValue": 49400,
+          "daysSinceLastMovement": 166,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1907",
+          "name": "Sensor harness SH-8",
+          "onHandValue": 41600,
+          "daysSinceLastMovement": 256,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-8255",
+          "name": "Belt drive B-42",
+          "onHandValue": 36100,
+          "daysSinceLastMovement": 425,
+          "writeOffAmount": 1400
+        },
+        {
+          "sku": "SKU-4789",
+          "name": "Heat exchanger plate HX-3",
+          "onHandValue": 29700,
+          "daysSinceLastMovement": 189,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-2103",
+          "name": "Lubricant cartridge LC-12",
+          "onHandValue": 26500,
+          "daysSinceLastMovement": 215,
+          "writeOffAmount": 0
+        }
+      ]
+    },
+    {
+      "month": "2025-09",
+      "skus": [
+        {
+          "sku": "SKU-4102",
+          "name": "Hydraulic seal kit A12",
+          "onHandValue": 145200,
+          "daysSinceLastMovement": 342,
+          "writeOffAmount": 2600
+        },
+        {
+          "sku": "SKU-2281",
+          "name": "Filter element F-90",
+          "onHandValue": 86600,
+          "daysSinceLastMovement": 231,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-7740",
+          "name": "Motor bearing 6205-2RS",
+          "onHandValue": 74700,
+          "daysSinceLastMovement": 277,
+          "writeOffAmount": 3000
+        },
+        {
+          "sku": "SKU-1194",
+          "name": "Gasket set G-330",
+          "onHandValue": 68600,
+          "daysSinceLastMovement": 195,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-5528",
+          "name": "Solenoid valve SV-14",
+          "onHandValue": 65800,
+          "daysSinceLastMovement": 447,
+          "writeOffAmount": 2600
+        },
+        {
+          "sku": "SKU-8831",
+          "name": "Coupling sleeve CS-7",
+          "onHandValue": 61500,
+          "daysSinceLastMovement": 210,
+          "writeOffAmount": 2500
+        },
+        {
+          "sku": "SKU-3066",
+          "name": "O-ring assortment OR-200",
+          "onHandValue": 54700,
+          "daysSinceLastMovement": 300,
+          "writeOffAmount": 1000
+        },
+        {
+          "sku": "SKU-6410",
+          "name": "Pump impeller P-55",
+          "onHandValue": 48100,
+          "daysSinceLastMovement": 171,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1907",
+          "name": "Sensor harness SH-8",
+          "onHandValue": 40200,
+          "daysSinceLastMovement": 261,
+          "writeOffAmount": 1600
+        },
+        {
+          "sku": "SKU-8255",
+          "name": "Belt drive B-42",
+          "onHandValue": 35400,
+          "daysSinceLastMovement": 430,
+          "writeOffAmount": 1400
+        },
+        {
+          "sku": "SKU-4789",
+          "name": "Heat exchanger plate HX-3",
+          "onHandValue": 29800,
+          "daysSinceLastMovement": 179,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-2103",
+          "name": "Lubricant cartridge LC-12",
+          "onHandValue": 27000,
+          "daysSinceLastMovement": 220,
+          "writeOffAmount": 1100
+        }
+      ]
+    },
+    {
+      "month": "2025-10",
+      "skus": [
+        {
+          "sku": "SKU-4102",
+          "name": "Hydraulic seal kit A12",
+          "onHandValue": 140500,
+          "daysSinceLastMovement": 346,
+          "writeOffAmount": 2500
+        },
+        {
+          "sku": "SKU-2281",
+          "name": "Filter element F-90",
+          "onHandValue": 84300,
+          "daysSinceLastMovement": 235,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-7740",
+          "name": "Motor bearing 6205-2RS",
+          "onHandValue": 74300,
+          "daysSinceLastMovement": 281,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1194",
+          "name": "Gasket set G-330",
+          "onHandValue": 69600,
+          "daysSinceLastMovement": 199,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-5528",
+          "name": "Solenoid valve SV-14",
+          "onHandValue": 66900,
+          "daysSinceLastMovement": 436,
+          "writeOffAmount": 2700
+        },
+        {
+          "sku": "SKU-8831",
+          "name": "Coupling sleeve CS-7",
+          "onHandValue": 61500,
+          "daysSinceLastMovement": 214,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-3066",
+          "name": "O-ring assortment OR-200",
+          "onHandValue": 53600,
+          "daysSinceLastMovement": 304,
+          "writeOffAmount": 1000
+        },
+        {
+          "sku": "SKU-6410",
+          "name": "Pump impeller P-55",
+          "onHandValue": 46500,
+          "daysSinceLastMovement": 175,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1907",
+          "name": "Sensor harness SH-8",
+          "onHandValue": 39200,
+          "daysSinceLastMovement": 265,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-8255",
+          "name": "Belt drive B-42",
+          "onHandValue": 35300,
+          "daysSinceLastMovement": 419,
+          "writeOffAmount": 1400
+        },
+        {
+          "sku": "SKU-4789",
+          "name": "Heat exchanger plate HX-3",
+          "onHandValue": 30300,
+          "daysSinceLastMovement": 183,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-2103",
+          "name": "Lubricant cartridge LC-12",
+          "onHandValue": 27400,
+          "daysSinceLastMovement": 224,
+          "writeOffAmount": 0
+        }
+      ]
+    },
+    {
+      "month": "2025-11",
+      "skus": [
+        {
+          "sku": "SKU-4102",
+          "name": "Hydraulic seal kit A12",
+          "onHandValue": 136100,
+          "daysSinceLastMovement": 351,
+          "writeOffAmount": 2400
+        },
+        {
+          "sku": "SKU-2281",
+          "name": "Filter element F-90",
+          "onHandValue": 83100,
+          "daysSinceLastMovement": 240,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-7740",
+          "name": "Motor bearing 6205-2RS",
+          "onHandValue": 75000,
+          "daysSinceLastMovement": 286,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1194",
+          "name": "Gasket set G-330",
+          "onHandValue": 70800,
+          "daysSinceLastMovement": 189,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-5528",
+          "name": "Solenoid valve SV-14",
+          "onHandValue": 82400,
+          "daysSinceLastMovement": 441,
+          "writeOffAmount": 3300
+        },
+        {
+          "sku": "SKU-8831",
+          "name": "Coupling sleeve CS-7",
+          "onHandValue": 60700,
+          "daysSinceLastMovement": 219,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-3066",
+          "name": "O-ring assortment OR-200",
+          "onHandValue": 52000,
+          "daysSinceLastMovement": 309,
+          "writeOffAmount": 900
+        },
+        {
+          "sku": "SKU-6410",
+          "name": "Pump impeller P-55",
+          "onHandValue": 45100,
+          "daysSinceLastMovement": 180,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1907",
+          "name": "Sensor harness SH-8",
+          "onHandValue": 38600,
+          "daysSinceLastMovement": 255,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-8255",
+          "name": "Belt drive B-42",
+          "onHandValue": 35600,
+          "daysSinceLastMovement": 424,
+          "writeOffAmount": 1400
+        },
+        {
+          "sku": "SKU-4789",
+          "name": "Heat exchanger plate HX-3",
+          "onHandValue": 30800,
+          "daysSinceLastMovement": 188,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-2103",
+          "name": "Lubricant cartridge LC-12",
+          "onHandValue": 27600,
+          "daysSinceLastMovement": 229,
+          "writeOffAmount": 0
+        }
+      ]
+    },
+    {
+      "month": "2025-12",
+      "skus": [
+        {
+          "sku": "SKU-4102",
+          "name": "Hydraulic seal kit A12",
+          "onHandValue": 133000,
+          "daysSinceLastMovement": 371,
+          "writeOffAmount": 13000
+        },
+        {
+          "sku": "SKU-2281",
+          "name": "Filter element F-90",
+          "onHandValue": 83100,
+          "daysSinceLastMovement": 260,
+          "writeOffAmount": 6600
+        },
+        {
+          "sku": "SKU-7740",
+          "name": "Motor bearing 6205-2RS",
+          "onHandValue": 76200,
+          "daysSinceLastMovement": 291,
+          "writeOffAmount": 9100
+        },
+        {
+          "sku": "SKU-1194",
+          "name": "Gasket set G-330",
+          "onHandValue": 71800,
+          "daysSinceLastMovement": 209,
+          "writeOffAmount": 5700
+        },
+        {
+          "sku": "SKU-5528",
+          "name": "Solenoid valve SV-14",
+          "onHandValue": 67100,
+          "daysSinceLastMovement": 461,
+          "writeOffAmount": 8100
+        },
+        {
+          "sku": "SKU-8831",
+          "name": "Coupling sleeve CS-7",
+          "onHandValue": 59200,
+          "daysSinceLastMovement": 239,
+          "writeOffAmount": 2400
+        },
+        {
+          "sku": "SKU-3066",
+          "name": "O-ring assortment OR-200",
+          "onHandValue": 50200,
+          "daysSinceLastMovement": 329,
+          "writeOffAmount": 900
+        },
+        {
+          "sku": "SKU-6410",
+          "name": "Pump impeller P-55",
+          "onHandValue": 44000,
+          "daysSinceLastMovement": 185,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1907",
+          "name": "Sensor harness SH-8",
+          "onHandValue": 38600,
+          "daysSinceLastMovement": 275,
+          "writeOffAmount": 1500
+        },
+        {
+          "sku": "SKU-8255",
+          "name": "Belt drive B-42",
+          "onHandValue": 36200,
+          "daysSinceLastMovement": 444,
+          "writeOffAmount": 1500
+        },
+        {
+          "sku": "SKU-4789",
+          "name": "Heat exchanger plate HX-3",
+          "onHandValue": 31200,
+          "daysSinceLastMovement": 208,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-2103",
+          "name": "Lubricant cartridge LC-12",
+          "onHandValue": 27500,
+          "daysSinceLastMovement": 249,
+          "writeOffAmount": 1100
+        }
+      ]
+    },
+    {
+      "month": "2026-01",
+      "skus": [
+        {
+          "sku": "SKU-4102",
+          "name": "Hydraulic seal kit A12",
+          "onHandValue": 131700,
+          "daysSinceLastMovement": 376,
+          "writeOffAmount": 2400
+        },
+        {
+          "sku": "SKU-2281",
+          "name": "Filter element F-90",
+          "onHandValue": 84100,
+          "daysSinceLastMovement": 250,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-7740",
+          "name": "Motor bearing 6205-2RS",
+          "onHandValue": 77600,
+          "daysSinceLastMovement": 296,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1194",
+          "name": "Gasket set G-330",
+          "onHandValue": 72100,
+          "daysSinceLastMovement": 214,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-5528",
+          "name": "Solenoid valve SV-14",
+          "onHandValue": 66000,
+          "daysSinceLastMovement": 466,
+          "writeOffAmount": 2700
+        },
+        {
+          "sku": "SKU-8831",
+          "name": "Coupling sleeve CS-7",
+          "onHandValue": 57300,
+          "daysSinceLastMovement": 244,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-3066",
+          "name": "O-ring assortment OR-200",
+          "onHandValue": 48800,
+          "daysSinceLastMovement": 319,
+          "writeOffAmount": 900
+        },
+        {
+          "sku": "SKU-6410",
+          "name": "Pump impeller P-55",
+          "onHandValue": 43600,
+          "daysSinceLastMovement": 190,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1907",
+          "name": "Sensor harness SH-8",
+          "onHandValue": 39100,
+          "daysSinceLastMovement": 280,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-8255",
+          "name": "Belt drive B-42",
+          "onHandValue": 36800,
+          "daysSinceLastMovement": 449,
+          "writeOffAmount": 1500
+        },
+        {
+          "sku": "SKU-4789",
+          "name": "Heat exchanger plate HX-3",
+          "onHandValue": 31400,
+          "daysSinceLastMovement": 213,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-2103",
+          "name": "Lubricant cartridge LC-12",
+          "onHandValue": 27000,
+          "daysSinceLastMovement": 239,
+          "writeOffAmount": 0
+        }
+      ]
+    },
+    {
+      "month": "2026-02",
+      "skus": [
+        {
+          "sku": "SKU-4102",
+          "name": "Hydraulic seal kit A12",
+          "onHandValue": 132400,
+          "daysSinceLastMovement": 365,
+          "writeOffAmount": 2400
+        },
+        {
+          "sku": "SKU-2281",
+          "name": "Filter element F-90",
+          "onHandValue": 85700,
+          "daysSinceLastMovement": 254,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-7740",
+          "name": "Motor bearing 6205-2RS",
+          "onHandValue": 78400,
+          "daysSinceLastMovement": 300,
+          "writeOffAmount": 1400
+        },
+        {
+          "sku": "SKU-1194",
+          "name": "Gasket set G-330",
+          "onHandValue": 71400,
+          "daysSinceLastMovement": 218,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-5528",
+          "name": "Solenoid valve SV-14",
+          "onHandValue": 64100,
+          "daysSinceLastMovement": 470,
+          "writeOffAmount": 2600
+        },
+        {
+          "sku": "SKU-8831",
+          "name": "Coupling sleeve CS-7",
+          "onHandValue": 55400,
+          "daysSinceLastMovement": 233,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-3066",
+          "name": "O-ring assortment OR-200",
+          "onHandValue": 47900,
+          "daysSinceLastMovement": 323,
+          "writeOffAmount": 900
+        },
+        {
+          "sku": "SKU-6410",
+          "name": "Pump impeller P-55",
+          "onHandValue": 43900,
+          "daysSinceLastMovement": 194,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1907",
+          "name": "Sensor harness SH-8",
+          "onHandValue": 39800,
+          "daysSinceLastMovement": 284,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-8255",
+          "name": "Belt drive B-42",
+          "onHandValue": 37200,
+          "daysSinceLastMovement": 453,
+          "writeOffAmount": 1500
+        },
+        {
+          "sku": "SKU-4789",
+          "name": "Heat exchanger plate HX-3",
+          "onHandValue": 31000,
+          "daysSinceLastMovement": 202,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-2103",
+          "name": "Lubricant cartridge LC-12",
+          "onHandValue": 26200,
+          "daysSinceLastMovement": 243,
+          "writeOffAmount": 0
+        }
+      ]
+    },
+    {
+      "month": "2026-03",
+      "skus": [
+        {
+          "sku": "SKU-4102",
+          "name": "Hydraulic seal kit A12",
+          "onHandValue": 134400,
+          "daysSinceLastMovement": 370,
+          "writeOffAmount": 2400
+        },
+        {
+          "sku": "SKU-2281",
+          "name": "Filter element F-90",
+          "onHandValue": 87100,
+          "daysSinceLastMovement": 259,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-7740",
+          "name": "Motor bearing 6205-2RS",
+          "onHandValue": 78300,
+          "daysSinceLastMovement": 305,
+          "writeOffAmount": 10900
+        },
+        {
+          "sku": "SKU-1194",
+          "name": "Gasket set G-330",
+          "onHandValue": 69800,
+          "daysSinceLastMovement": 223,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-5528",
+          "name": "Solenoid valve SV-14",
+          "onHandValue": 61900,
+          "daysSinceLastMovement": 460,
+          "writeOffAmount": 2500
+        },
+        {
+          "sku": "SKU-8831",
+          "name": "Coupling sleeve CS-7",
+          "onHandValue": 53900,
+          "daysSinceLastMovement": 238,
+          "writeOffAmount": 2200
+        },
+        {
+          "sku": "SKU-3066",
+          "name": "O-ring assortment OR-200",
+          "onHandValue": 47700,
+          "daysSinceLastMovement": 328,
+          "writeOffAmount": 900
+        },
+        {
+          "sku": "SKU-6410",
+          "name": "Pump impeller P-55",
+          "onHandValue": 44600,
+          "daysSinceLastMovement": 199,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1907",
+          "name": "Sensor harness SH-8",
+          "onHandValue": 40500,
+          "daysSinceLastMovement": 289,
+          "writeOffAmount": 1600
+        },
+        {
+          "sku": "SKU-8255",
+          "name": "Belt drive B-42",
+          "onHandValue": 37200,
+          "daysSinceLastMovement": 443,
+          "writeOffAmount": 1500
+        },
+        {
+          "sku": "SKU-4789",
+          "name": "Heat exchanger plate HX-3",
+          "onHandValue": 30300,
+          "daysSinceLastMovement": 207,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-2103",
+          "name": "Lubricant cartridge LC-12",
+          "onHandValue": 25300,
+          "daysSinceLastMovement": 248,
+          "writeOffAmount": 1000
+        }
+      ]
+    },
+    {
+      "month": "2026-04",
+      "skus": [
+        {
+          "sku": "SKU-4102",
+          "name": "Hydraulic seal kit A12",
+          "onHandValue": 136900,
+          "daysSinceLastMovement": 390,
+          "writeOffAmount": 5500
+        },
+        {
+          "sku": "SKU-2281",
+          "name": "Filter element F-90",
+          "onHandValue": 87700,
+          "daysSinceLastMovement": 279,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-7740",
+          "name": "Motor bearing 6205-2RS",
+          "onHandValue": 77200,
+          "daysSinceLastMovement": 325,
+          "writeOffAmount": 1400
+        },
+        {
+          "sku": "SKU-1194",
+          "name": "Gasket set G-330",
+          "onHandValue": 67600,
+          "daysSinceLastMovement": 228,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-5528",
+          "name": "Solenoid valve SV-14",
+          "onHandValue": 59900,
+          "daysSinceLastMovement": 480,
+          "writeOffAmount": 2400
+        },
+        {
+          "sku": "SKU-8831",
+          "name": "Coupling sleeve CS-7",
+          "onHandValue": 53200,
+          "daysSinceLastMovement": 258,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-3066",
+          "name": "O-ring assortment OR-200",
+          "onHandValue": 48200,
+          "daysSinceLastMovement": 348,
+          "writeOffAmount": 900
+        },
+        {
+          "sku": "SKU-6410",
+          "name": "Pump impeller P-55",
+          "onHandValue": 45400,
+          "daysSinceLastMovement": 219,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1907",
+          "name": "Sensor harness SH-8",
+          "onHandValue": 40800,
+          "daysSinceLastMovement": 294,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-8255",
+          "name": "Belt drive B-42",
+          "onHandValue": 36600,
+          "daysSinceLastMovement": 463,
+          "writeOffAmount": 1500
+        },
+        {
+          "sku": "SKU-4789",
+          "name": "Heat exchanger plate HX-3",
+          "onHandValue": 29400,
+          "daysSinceLastMovement": 227,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-2103",
+          "name": "Lubricant cartridge LC-12",
+          "onHandValue": 24500,
+          "daysSinceLastMovement": 268,
+          "writeOffAmount": 0
+        }
+      ]
+    },
+    {
+      "month": "2026-05",
+      "skus": [
+        {
+          "sku": "SKU-4102",
+          "name": "Hydraulic seal kit A12",
+          "onHandValue": 138800,
+          "daysSinceLastMovement": 395,
+          "writeOffAmount": 5600
+        },
+        {
+          "sku": "SKU-2281",
+          "name": "Filter element F-90",
+          "onHandValue": 87200,
+          "daysSinceLastMovement": 284,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-7740",
+          "name": "Motor bearing 6205-2RS",
+          "onHandValue": 75100,
+          "daysSinceLastMovement": 315,
+          "writeOffAmount": 1400
+        },
+        {
+          "sku": "SKU-1194",
+          "name": "Gasket set G-330",
+          "onHandValue": 65200,
+          "daysSinceLastMovement": 233,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-5528",
+          "name": "Solenoid valve SV-14",
+          "onHandValue": 58600,
+          "daysSinceLastMovement": 485,
+          "writeOffAmount": 2400
+        },
+        {
+          "sku": "SKU-8831",
+          "name": "Coupling sleeve CS-7",
+          "onHandValue": 53300,
+          "daysSinceLastMovement": 263,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-3066",
+          "name": "O-ring assortment OR-200",
+          "onHandValue": 49100,
+          "daysSinceLastMovement": 353,
+          "writeOffAmount": 900
+        },
+        {
+          "sku": "SKU-6410",
+          "name": "Pump impeller P-55",
+          "onHandValue": 46000,
+          "daysSinceLastMovement": 209,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1907",
+          "name": "Sensor harness SH-8",
+          "onHandValue": 40500,
+          "daysSinceLastMovement": 299,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-8255",
+          "name": "Belt drive B-42",
+          "onHandValue": 35600,
+          "daysSinceLastMovement": 468,
+          "writeOffAmount": 1400
+        },
+        {
+          "sku": "SKU-4789",
+          "name": "Heat exchanger plate HX-3",
+          "onHandValue": 28400,
+          "daysSinceLastMovement": 232,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-2103",
+          "name": "Lubricant cartridge LC-12",
+          "onHandValue": 24000,
+          "daysSinceLastMovement": 273,
+          "writeOffAmount": 0
+        }
+      ]
+    },
+    {
+      "month": "2026-06",
+      "skus": [
+        {
+          "sku": "SKU-4102",
+          "name": "Hydraulic seal kit A12",
+          "onHandValue": 157000,
+          "daysSinceLastMovement": 399,
+          "writeOffAmount": 6300
+        },
+        {
+          "sku": "SKU-2281",
+          "name": "Filter element F-90",
+          "onHandValue": 85500,
+          "daysSinceLastMovement": 273,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-7740",
+          "name": "Motor bearing 6205-2RS",
+          "onHandValue": 72600,
+          "daysSinceLastMovement": 319,
+          "writeOffAmount": 4200
+        },
+        {
+          "sku": "SKU-1194",
+          "name": "Gasket set G-330",
+          "onHandValue": 63300,
+          "daysSinceLastMovement": 237,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-5528",
+          "name": "Solenoid valve SV-14",
+          "onHandValue": 58100,
+          "daysSinceLastMovement": 489,
+          "writeOffAmount": 2300
+        },
+        {
+          "sku": "SKU-8831",
+          "name": "Coupling sleeve CS-7",
+          "onHandValue": 54100,
+          "daysSinceLastMovement": 267,
+          "writeOffAmount": 2200
+        },
+        {
+          "sku": "SKU-3066",
+          "name": "O-ring assortment OR-200",
+          "onHandValue": 49900,
+          "daysSinceLastMovement": 342,
+          "writeOffAmount": 900
+        },
+        {
+          "sku": "SKU-6410",
+          "name": "Pump impeller P-55",
+          "onHandValue": 46100,
+          "daysSinceLastMovement": 213,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1907",
+          "name": "Sensor harness SH-8",
+          "onHandValue": 39700,
+          "daysSinceLastMovement": 303,
+          "writeOffAmount": 2300
+        },
+        {
+          "sku": "SKU-8255",
+          "name": "Belt drive B-42",
+          "onHandValue": 34400,
+          "daysSinceLastMovement": 472,
+          "writeOffAmount": 1400
+        },
+        {
+          "sku": "SKU-4789",
+          "name": "Heat exchanger plate HX-3",
+          "onHandValue": 27500,
+          "daysSinceLastMovement": 236,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-2103",
+          "name": "Lubricant cartridge LC-12",
+          "onHandValue": 23800,
+          "daysSinceLastMovement": 262,
+          "writeOffAmount": 1000
+        }
+      ]
+    },
+    {
+      "month": "2026-07",
+      "skus": [
+        {
+          "sku": "SKU-4102",
+          "name": "Hydraulic seal kit A12",
+          "onHandValue": 137700,
+          "daysSinceLastMovement": 389,
+          "writeOffAmount": 5500
+        },
+        {
+          "sku": "SKU-2281",
+          "name": "Filter element F-90",
+          "onHandValue": 82900,
+          "daysSinceLastMovement": 278,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-7740",
+          "name": "Motor bearing 6205-2RS",
+          "onHandValue": 70100,
+          "daysSinceLastMovement": 324,
+          "writeOffAmount": 1300
+        },
+        {
+          "sku": "SKU-1194",
+          "name": "Gasket set G-330",
+          "onHandValue": 62200,
+          "daysSinceLastMovement": 242,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-5528",
+          "name": "Solenoid valve SV-14",
+          "onHandValue": 58500,
+          "daysSinceLastMovement": 494,
+          "writeOffAmount": 2400
+        },
+        {
+          "sku": "SKU-8831",
+          "name": "Coupling sleeve CS-7",
+          "onHandValue": 55100,
+          "daysSinceLastMovement": 257,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-3066",
+          "name": "O-ring assortment OR-200",
+          "onHandValue": 50400,
+          "daysSinceLastMovement": 347,
+          "writeOffAmount": 900
+        },
+        {
+          "sku": "SKU-6410",
+          "name": "Pump impeller P-55",
+          "onHandValue": 45600,
+          "daysSinceLastMovement": 218,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1907",
+          "name": "Sensor harness SH-8",
+          "onHandValue": 38500,
+          "daysSinceLastMovement": 308,
+          "writeOffAmount": 700
+        },
+        {
+          "sku": "SKU-8255",
+          "name": "Belt drive B-42",
+          "onHandValue": 33200,
+          "daysSinceLastMovement": 477,
+          "writeOffAmount": 1300
+        },
+        {
+          "sku": "SKU-4789",
+          "name": "Heat exchanger plate HX-3",
+          "onHandValue": 27000,
+          "daysSinceLastMovement": 226,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-2103",
+          "name": "Lubricant cartridge LC-12",
+          "onHandValue": 24000,
+          "daysSinceLastMovement": 267,
+          "writeOffAmount": 0
+        }
+      ]
+    },
+    {
+      "month": "2026-08",
+      "skus": [
+        {
+          "sku": "SKU-4102",
+          "name": "Hydraulic seal kit A12",
+          "onHandValue": 134300,
+          "daysSinceLastMovement": 409,
+          "writeOffAmount": 5400
+        },
+        {
+          "sku": "SKU-2281",
+          "name": "Filter element F-90",
+          "onHandValue": 79900,
+          "daysSinceLastMovement": 298,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-7740",
+          "name": "Motor bearing 6205-2RS",
+          "onHandValue": 68300,
+          "daysSinceLastMovement": 344,
+          "writeOffAmount": 1200
+        },
+        {
+          "sku": "SKU-1194",
+          "name": "Gasket set G-330",
+          "onHandValue": 62000,
+          "daysSinceLastMovement": 262,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-5528",
+          "name": "Solenoid valve SV-14",
+          "onHandValue": 59500,
+          "daysSinceLastMovement": 499,
+          "writeOffAmount": 2400
+        },
+        {
+          "sku": "SKU-8831",
+          "name": "Coupling sleeve CS-7",
+          "onHandValue": 56000,
+          "daysSinceLastMovement": 277,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-3066",
+          "name": "O-ring assortment OR-200",
+          "onHandValue": 50300,
+          "daysSinceLastMovement": 367,
+          "writeOffAmount": 900
+        },
+        {
+          "sku": "SKU-6410",
+          "name": "Pump impeller P-55",
+          "onHandValue": 44500,
+          "daysSinceLastMovement": 238,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1907",
+          "name": "Sensor harness SH-8",
+          "onHandValue": 37100,
+          "daysSinceLastMovement": 328,
+          "writeOffAmount": 700
+        },
+        {
+          "sku": "SKU-8255",
+          "name": "Belt drive B-42",
+          "onHandValue": 32400,
+          "daysSinceLastMovement": 482,
+          "writeOffAmount": 1300
+        },
+        {
+          "sku": "SKU-4789",
+          "name": "Heat exchanger plate HX-3",
+          "onHandValue": 27000,
+          "daysSinceLastMovement": 246,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-2103",
+          "name": "Lubricant cartridge LC-12",
+          "onHandValue": 24400,
+          "daysSinceLastMovement": 287,
+          "writeOffAmount": 0
+        }
+      ]
+    },
+    {
+      "month": "2026-09",
+      "skus": [
+        {
+          "sku": "SKU-4102",
+          "name": "Hydraulic seal kit A12",
+          "onHandValue": 129800,
+          "daysSinceLastMovement": 414,
+          "writeOffAmount": 5200
+        },
+        {
+          "sku": "SKU-2281",
+          "name": "Filter element F-90",
+          "onHandValue": 77300,
+          "daysSinceLastMovement": 303,
+          "writeOffAmount": 1400
+        },
+        {
+          "sku": "SKU-7740",
+          "name": "Motor bearing 6205-2RS",
+          "onHandValue": 67400,
+          "daysSinceLastMovement": 349,
+          "writeOffAmount": 3900
+        },
+        {
+          "sku": "SKU-1194",
+          "name": "Gasket set G-330",
+          "onHandValue": 62800,
+          "daysSinceLastMovement": 252,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-5528",
+          "name": "Solenoid valve SV-14",
+          "onHandValue": 60700,
+          "daysSinceLastMovement": 504,
+          "writeOffAmount": 2400
+        },
+        {
+          "sku": "SKU-8831",
+          "name": "Coupling sleeve CS-7",
+          "onHandValue": 56300,
+          "daysSinceLastMovement": 282,
+          "writeOffAmount": 2300
+        },
+        {
+          "sku": "SKU-3066",
+          "name": "O-ring assortment OR-200",
+          "onHandValue": 49500,
+          "daysSinceLastMovement": 372,
+          "writeOffAmount": 900
+        },
+        {
+          "sku": "SKU-6410",
+          "name": "Pump impeller P-55",
+          "onHandValue": 43000,
+          "daysSinceLastMovement": 243,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-1907",
+          "name": "Sensor harness SH-8",
+          "onHandValue": 35900,
+          "daysSinceLastMovement": 318,
+          "writeOffAmount": 2000
+        },
+        {
+          "sku": "SKU-8255",
+          "name": "Belt drive B-42",
+          "onHandValue": 32000,
+          "daysSinceLastMovement": 487,
+          "writeOffAmount": 1300
+        },
+        {
+          "sku": "SKU-4789",
+          "name": "Heat exchanger plate HX-3",
+          "onHandValue": 27300,
+          "daysSinceLastMovement": 251,
+          "writeOffAmount": 0
+        },
+        {
+          "sku": "SKU-2103",
+          "name": "Lubricant cartridge LC-12",
+          "onHandValue": 24800,
+          "daysSinceLastMovement": 292,
+          "writeOffAmount": 1000
+        }
+      ]
+    }
+  ]
+}
