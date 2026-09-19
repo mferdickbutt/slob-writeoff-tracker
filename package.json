@@ -1,0 +1,9 @@
+{
+  "name": "slob-writeoff-tracker",
+  "private": true,
+  "description": "SKU-level SLOB write-off trend tracker with baked first-paint HTML.",
+  "scripts": {
+    "render": "node scripts/render-static.js",
+    "test": "bash scripts/test.sh"
+  }
+}

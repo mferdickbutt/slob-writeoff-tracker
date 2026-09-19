@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SLOB Write-Off Tracker</title>
+  <meta name="description" content="SKU-level SLOB write-off trend tracker with total SLOB value, write-off total, top-SKU SLOB share, MoM change, and target comparisons. First paint is fully baked HTML.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <div class="kicker">SKU-level inventory ledger</div>
+      <h1>SLOB Write-Off Tracker</h1>
+      <p>
+        18 months of sample slow-moving and obsolete inventory (2025-04/2026-09),
+        12 SKUs in the latest month. Summary metrics, the monthly table, and SKU rows
+        below are baked into this HTML so a static <code>curl -sL</code> first paint shows
+        Total SLOB value, Write-off total, Top-SKU SLOB share, MoM change, Target comparisons,
+        and every month/SKU row with no JavaScript placeholder.
+      </p>
+    </header>
+
+    <section class="metrics" aria-label="Summary metrics">
+      <article class="card" id="metric-total-slob">
+        <h2>Total SLOB value</h2>
+        <p class="value">$666,800</p>
+        <p class="hint">September 2026</p>
+      </article>
+      <article class="card" id="metric-write-off-total">
+        <h2>Write-off total</h2>
+        <p class="value">$20,400</p>
+        <p class="hint">Write-off rate 3.1% of SLOB</p>
+      </article>
+      <article class="card" id="metric-top-sku-share">
+        <h2>Top-SKU SLOB share</h2>
+        <p class="value">19.5%</p>
+        <p class="hint">SKU-4102 · Hydraulic seal kit A12</p>
+      </article>
+      <article class="card" id="metric-mom">
+        <h2>MoM change</h2>
+        <p class="value down good">-1.3%</p>
+        <p class="hint">vs August 2026 ($675,700)</p>
+      </article>
+      <article class="card" id="metric-targets">
+        <h2>Target comparisons</h2>
+        <p class="sub">SLOB target $700,000: <span class="good">under target by $33,200 (4.7%)</span></p>
+        <p class="sub">Write-off target $18,000: <span class="warn">over target by $2,400 (13.3%)</span></p>
+        <p class="sub">Top-SKU share target 18.0%: <span class="warn">over target by 1.5% pts (8.1% relative)</span></p>
+      </article>
+    </section>
+
+    <section class="mix" id="sku-mix" aria-label="SKU SLOB mix">
+      <h2>SKU SLOB mix</h2>
+      <p class="hint">On-hand SLOB share by SKU for September 2026.</p>
+      <div class="mix-grid">
+        <div class="mix-row" data-sku="SKU-4102"><div>SKU-4102 · Hydraulic seal kit A12</div><div class="mix-bar" title="19.5%"><span style="width:19.5%"></span></div><div>19.5%</div><div class="sub">$129,800 · 414d idle</div></div>
+<div class="mix-row" data-sku="SKU-2281"><div>SKU-2281 · Filter element F-90</div><div class="mix-bar" title="11.6%"><span style="width:11.6%"></span></div><div>11.6%</div><div class="sub">$77,300 · 303d idle</div></div>
+<div class="mix-row" data-sku="SKU-7740"><div>SKU-7740 · Motor bearing 6205-2RS</div><div class="mix-bar" title="10.1%"><span style="width:10.1%"></span></div><div>10.1%</div><div class="sub">$67,400 · 349d idle</div></div>
+<div class="mix-row" data-sku="SKU-1194"><div>SKU-1194 · Gasket set G-330</div><div class="mix-bar" title="9.4%"><span style="width:9.4%"></span></div><div>9.4%</div><div class="sub">$62,800 · 252d idle</div></div>
+<div class="mix-row" data-sku="SKU-5528"><div>SKU-5528 · Solenoid valve SV-14</div><div class="mix-bar" title="9.1%"><span style="width:9.1%"></span></div><div>9.1%</div><div class="sub">$60,700 · 504d idle</div></div>
+<div class="mix-row" data-sku="SKU-8831"><div>SKU-8831 · Coupling sleeve CS-7</div><div class="mix-bar" title="8.4%"><span style="width:8.4%"></span></div><div>8.4%</div><div class="sub">$56,300 · 282d idle</div></div>
+<div class="mix-row" data-sku="SKU-3066"><div>SKU-3066 · O-ring assortment OR-200</div><div class="mix-bar" title="7.4%"><span style="width:7.4%"></span></div><div>7.4%</div><div class="sub">$49,500 · 372d idle</div></div>
+<div class="mix-row" data-sku="SKU-6410"><div>SKU-6410 · Pump impeller P-55</div><div class="mix-bar" title="6.4%"><span style="width:6.4%"></span></div><div>6.4%</div><div class="sub">$43,000 · 243d idle</div></div>
+<div class="mix-row" data-sku="SKU-1907"><div>SKU-1907 · Sensor harness SH-8</div><div class="mix-bar" title="5.4%"><span style="width:5.4%"></span></div><div>5.4%</div><div class="sub">$35,900 · 318d idle</div></div>
+<div class="mix-row" data-sku="SKU-8255"><div>SKU-8255 · Belt drive B-42</div><div class="mix-bar" title="4.8%"><span style="width:4.8%"></span></div><div>4.8%</div><div class="sub">$32,000 · 487d idle</div></div>
+<div class="mix-row" data-sku="SKU-4789"><div>SKU-4789 · Heat exchanger plate HX-3</div><div class="mix-bar" title="4.1%"><span style="width:4.1%"></span></div><div>4.1%</div><div class="sub">$27,300 · 251d idle</div></div>
+<div class="mix-row" data-sku="SKU-2103"><div>SKU-2103 · Lubricant cartridge LC-12</div><div class="mix-bar" title="3.7%"><span style="width:3.7%"></span></div><div>3.7%</div><div class="sub">$24,800 · 292d idle</div></div>
+      </div>
+    </section>
+
+    <section class="trend" aria-label="SLOB sparkline">
+      <h2>Monthly SLOB</h2>
+      <div class="spark" style="grid-template-columns: repeat(18, 1fr)"><div class="bar" style="height:100.0%" title="April 2025 $775,500"></div><div class="bar" style="height:99.4%" title="May 2025 $771,200"></div><div class="bar" style="height:98.6%" title="June 2025 $764,700"></div><div class="bar" style="height:97.5%" title="July 2025 $756,400"></div><div class="bar" style="height:96.3%" title="August 2025 $747,000"></div><div class="bar" style="height:95.1%" title="September 2025 $737,600"></div><div class="bar" style="height:94.1%" title="October 2025 $729,400"></div><div class="bar" style="height:95.1%" title="November 2025 $737,800"></div><div class="bar" style="height:92.6%" title="December 2025 $718,100"></div><div class="bar" style="height:92.3%" title="January 2026 $715,500"></div><div class="bar" style="height:92.0%" title="February 2026 $713,400"></div><div class="bar" style="height:91.7%" title="March 2026 $711,000"></div><div class="bar" style="height:91.2%" title="April 2026 $707,400"></div><div class="bar" style="height:90.5%" title="May 2026 $701,800"></div><div class="bar" style="height:91.8%" title="June 2026 $712,000"></div><div class="bar" style="height:88.4%" title="July 2026 $685,200"></div><div class="bar" style="height:87.1%" title="August 2026 $675,700"></div><div class="bar is-latest" style="height:86.0%" title="September 2026 $666,800"></div></div>
+    </section>
+
+    <section aria-label="Monthly table">
+      <h2>Monthly table</h2>
+      <p class="hint">Click a column header to sort after JavaScript loads. Rows and values are already in the markup.</p>
+      <p id="selected-month"></p>
+      <div class="table-wrap">
+        <table id="monthly-table">
+          <thead>
+            <tr>
+              <th data-sort="month" data-type="string">Month</th>
+              <th data-sort="skuCount" data-type="number">SKUs</th>
+              <th data-sort="total" data-type="number">Total SLOB value</th>
+              <th data-sort="writeOff" data-type="number">Write-off total</th>
+              <th data-sort="topSku" data-type="string">Top SKU</th>
+              <th data-sort="topSkuShare" data-type="number">Top-SKU SLOB share</th>
+              <th data-sort="mom" data-type="number">MoM</th>
+              <th>vs SLOB target</th>
+            </tr>
+          </thead>
+          <tbody>
+<tr data-month="2025-04" data-label="April 2025" data-total="$775,500"><td data-key="month" data-value="2025-04">April 2025</td><td data-key="skuCount" data-value="12">12</td><td data-key="total" data-value="775500">$775,500</td><td data-key="writeOff" data-value="7000">$7,000</td><td data-key="topSku" data-value="SKU-4102">SKU-4102</td><td data-key="topSkuShare" data-value="0.19110251450676982">19.1%</td><td data-key="mom" data-value="">—</td><td data-key="target"><span class="pill over">Over 10.8%</span></td></tr>
+<tr data-month="2025-05" data-label="May 2025" data-total="$771,200"><td data-key="month" data-value="2025-05">May 2025</td><td data-key="skuCount" data-value="12">12</td><td data-key="total" data-value="771200">$771,200</td><td data-key="writeOff" data-value="6900">$6,900</td><td data-key="topSku" data-value="SKU-4102">SKU-4102</td><td data-key="topSkuShare" data-value="0.19528008298755187">19.5%</td><td data-key="mom" data-value="-0.005544809800128949">-0.6%</td><td data-key="target"><span class="pill over">Over 10.2%</span></td></tr>
+<tr data-month="2025-06" data-label="June 2025" data-total="$764,700"><td data-key="month" data-value="2025-06">June 2025</td><td data-key="skuCount" data-value="12">12</td><td data-key="total" data-value="764700">$764,700</td><td data-key="writeOff" data-value="15200">$15,200</td><td data-key="topSku" data-value="SKU-4102">SKU-4102</td><td data-key="topSkuShare" data-value="0.19863998953838105">19.9%</td><td data-key="mom" data-value="-0.008428423236514522">-0.8%</td><td data-key="target"><span class="pill over">Over 9.2%</span></td></tr>
+<tr data-month="2025-07" data-label="July 2025" data-total="$756,400"><td data-key="month" data-value="2025-07">July 2025</td><td data-key="skuCount" data-value="12">12</td><td data-key="total" data-value="756400">$756,400</td><td data-key="writeOff" data-value="6800">$6,800</td><td data-key="topSku" data-value="SKU-4102">SKU-4102</td><td data-key="topSkuShare" data-value="0.20029085140137493">20.0%</td><td data-key="mom" data-value="-0.010853929645612659">-1.1%</td><td data-key="target"><span class="pill over">Over 8.1%</span></td></tr>
+<tr data-month="2025-08" data-label="August 2025" data-total="$747,000"><td data-key="month" data-value="2025-08">August 2025</td><td data-key="skuCount" data-value="12">12</td><td data-key="total" data-value="747000">$747,000</td><td data-key="writeOff" data-value="6700">$6,700</td><td data-key="topSku" data-value="SKU-4102">SKU-4102</td><td data-key="topSkuShare" data-value="0.19959839357429718">20.0%</td><td data-key="mom" data-value="-0.012427287149656267">-1.2%</td><td data-key="target"><span class="pill over">Over 6.7%</span></td></tr>
+<tr data-month="2025-09" data-label="September 2025" data-total="$737,600"><td data-key="month" data-value="2025-09">September 2025</td><td data-key="skuCount" data-value="12">12</td><td data-key="total" data-value="737600">$737,600</td><td data-key="writeOff" data-value="15800">$15,800</td><td data-key="topSku" data-value="SKU-4102">SKU-4102</td><td data-key="topSkuShare" data-value="0.19685466377440347">19.7%</td><td data-key="mom" data-value="-0.012583668005354752">-1.3%</td><td data-key="target"><span class="pill over">Over 5.4%</span></td></tr>
+<tr data-month="2025-10" data-label="October 2025" data-total="$729,400"><td data-key="month" data-value="2025-10">October 2025</td><td data-key="skuCount" data-value="12">12</td><td data-key="total" data-value="729400">$729,400</td><td data-key="writeOff" data-value="7600">$7,600</td><td data-key="topSku" data-value="SKU-4102">SKU-4102</td><td data-key="topSkuShare" data-value="0.1926240745818481">19.3%</td><td data-key="mom" data-value="-0.011117136659436009">-1.1%</td><td data-key="target"><span class="pill over">Over 4.2%</span></td></tr>
+<tr data-month="2025-11" data-label="November 2025" data-total="$737,800"><td data-key="month" data-value="2025-11">November 2025</td><td data-key="skuCount" data-value="12">12</td><td data-key="total" data-value="737800">$737,800</td><td data-key="writeOff" data-value="8000">$8,000</td><td data-key="topSku" data-value="SKU-4102">SKU-4102</td><td data-key="topSkuShare" data-value="0.18446733532122525">18.4%</td><td data-key="mom" data-value="0.011516314779270634">+1.2%</td><td data-key="target"><span class="pill over">Over 5.4%</span></td></tr>
+<tr data-month="2025-12" data-label="December 2025" data-total="$718,100"><td data-key="month" data-value="2025-12">December 2025</td><td data-key="skuCount" data-value="12">12</td><td data-key="total" data-value="718100">$718,100</td><td data-key="writeOff" data-value="49900">$49,900</td><td data-key="topSku" data-value="SKU-4102">SKU-4102</td><td data-key="topSkuShare" data-value="0.18521097340203313">18.5%</td><td data-key="mom" data-value="-0.026701002981837897">-2.7%</td><td data-key="target"><span class="pill over">Over 2.6%</span></td></tr>
+<tr data-month="2026-01" data-label="January 2026" data-total="$715,500"><td data-key="month" data-value="2026-01">January 2026</td><td data-key="skuCount" data-value="12">12</td><td data-key="total" data-value="715500">$715,500</td><td data-key="writeOff" data-value="7500">$7,500</td><td data-key="topSku" data-value="SKU-4102">SKU-4102</td><td data-key="topSkuShare" data-value="0.1840670859538784">18.4%</td><td data-key="mom" data-value="-0.0036206656454532793">-0.4%</td><td data-key="target"><span class="pill over">Over 2.2%</span></td></tr>
+<tr data-month="2026-02" data-label="February 2026" data-total="$713,400"><td data-key="month" data-value="2026-02">February 2026</td><td data-key="skuCount" data-value="12">12</td><td data-key="total" data-value="713400">$713,400</td><td data-key="writeOff" data-value="8800">$8,800</td><td data-key="topSku" data-value="SKU-4102">SKU-4102</td><td data-key="topSkuShare" data-value="0.1855901317633866">18.6%</td><td data-key="mom" data-value="-0.0029350104821802936">-0.3%</td><td data-key="target"><span class="pill over">Over 1.9%</span></td></tr>
+<tr data-month="2026-03" data-label="March 2026" data-total="$711,000"><td data-key="month" data-value="2026-03">March 2026</td><td data-key="skuCount" data-value="12">12</td><td data-key="total" data-value="711000">$711,000</td><td data-key="writeOff" data-value="23000">$23,000</td><td data-key="topSku" data-value="SKU-4102">SKU-4102</td><td data-key="topSkuShare" data-value="0.1890295358649789">18.9%</td><td data-key="mom" data-value="-0.00336417157275021">-0.3%</td><td data-key="target"><span class="pill over">Over 1.6%</span></td></tr>
+<tr data-month="2026-04" data-label="April 2026" data-total="$707,400"><td data-key="month" data-value="2026-04">April 2026</td><td data-key="skuCount" data-value="12">12</td><td data-key="total" data-value="707400">$707,400</td><td data-key="writeOff" data-value="11700">$11,700</td><td data-key="topSku" data-value="SKU-4102">SKU-4102</td><td data-key="topSkuShare" data-value="0.19352558665535766">19.4%</td><td data-key="mom" data-value="-0.005063291139240506">-0.5%</td><td data-key="target"><span class="pill over">Over 1.1%</span></td></tr>
+<tr data-month="2026-05" data-label="May 2026" data-total="$701,800"><td data-key="month" data-value="2026-05">May 2026</td><td data-key="skuCount" data-value="12">12</td><td data-key="total" data-value="701800">$701,800</td><td data-key="writeOff" data-value="11700">$11,700</td><td data-key="topSku" data-value="SKU-4102">SKU-4102</td><td data-key="topSkuShare" data-value="0.19777714448560843">19.8%</td><td data-key="mom" data-value="-0.00791631325982471">-0.8%</td><td data-key="target"><span class="pill over">Over 0.3%</span></td></tr>
+<tr data-month="2026-06" data-label="June 2026" data-total="$712,000"><td data-key="month" data-value="2026-06">June 2026</td><td data-key="skuCount" data-value="12">12</td><td data-key="total" data-value="712000">$712,000</td><td data-key="writeOff" data-value="20600">$20,600</td><td data-key="topSku" data-value="SKU-4102">SKU-4102</td><td data-key="topSkuShare" data-value="0.2205056179775281">22.1%</td><td data-key="mom" data-value="0.014534055286406384">+1.5%</td><td data-key="target"><span class="pill over">Over 1.7%</span></td></tr>
+<tr data-month="2026-07" data-label="July 2026" data-total="$685,200"><td data-key="month" data-value="2026-07">July 2026</td><td data-key="skuCount" data-value="12">12</td><td data-key="total" data-value="685200">$685,200</td><td data-key="writeOff" data-value="12100">$12,100</td><td data-key="topSku" data-value="SKU-4102">SKU-4102</td><td data-key="topSkuShare" data-value="0.2009632224168126">20.1%</td><td data-key="mom" data-value="-0.037640449438202245">-3.8%</td><td data-key="target"><span class="pill under">Under 2.1%</span></td></tr>
+<tr data-month="2026-08" data-label="August 2026" data-total="$675,700"><td data-key="month" data-value="2026-08">August 2026</td><td data-key="skuCount" data-value="12">12</td><td data-key="total" data-value="675700">$675,700</td><td data-key="writeOff" data-value="11900">$11,900</td><td data-key="topSku" data-value="SKU-4102">SKU-4102</td><td data-key="topSkuShare" data-value="0.19875684475358887">19.9%</td><td data-key="mom" data-value="-0.01386456509048453">-1.4%</td><td data-key="target"><span class="pill under">Under 3.5%</span></td></tr>
+<tr data-month="2026-09" data-label="September 2026" data-total="$666,800"><td data-key="month" data-value="2026-09">September 2026</td><td data-key="skuCount" data-value="12">12</td><td data-key="total" data-value="666800">$666,800</td><td data-key="writeOff" data-value="20400">$20,400</td><td data-key="topSku" data-value="SKU-4102">SKU-4102</td><td data-key="topSkuShare" data-value="0.1946610677864427">19.5%</td><td data-key="mom" data-value="-0.013171525825070297">-1.3%</td><td data-key="target"><span class="pill under">Under 4.7%</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section aria-label="SKU table">
+      <h2>SKU table</h2>
+      <p class="hint">On-hand value, days since last movement, and write-off amount for each SKU in September 2026.</p>
+      <p id="selected-sku"></p>
+      <div class="table-wrap">
+        <table id="sku-table">
+          <thead>
+            <tr>
+              <th data-sort="sku" data-type="string">SKU</th>
+              <th data-sort="name" data-type="string">Name</th>
+              <th data-sort="onHand" data-type="number">On-hand value</th>
+              <th data-sort="days" data-type="number">Days since last movement</th>
+              <th data-sort="writeOff" data-type="number">Write-off amount</th>
+              <th data-sort="share" data-type="number">SLOB share</th>
+            </tr>
+          </thead>
+          <tbody>
+<tr data-sku="SKU-4102"><td data-key="sku" data-value="SKU-4102">SKU-4102</td><td data-key="name" data-value="Hydraulic seal kit A12">Hydraulic seal kit A12</td><td data-key="onHand" data-value="129800">$129,800</td><td data-key="days" data-value="414">414d</td><td data-key="writeOff" data-value="5200">$5,200</td><td data-key="share" data-value="0.1946610677864427">19.5%</td></tr>
+<tr data-sku="SKU-2281"><td data-key="sku" data-value="SKU-2281">SKU-2281</td><td data-key="name" data-value="Filter element F-90">Filter element F-90</td><td data-key="onHand" data-value="77300">$77,300</td><td data-key="days" data-value="303">303d</td><td data-key="writeOff" data-value="1400">$1,400</td><td data-key="share" data-value="0.11592681463707259">11.6%</td></tr>
+<tr data-sku="SKU-7740"><td data-key="sku" data-value="SKU-7740">SKU-7740</td><td data-key="name" data-value="Motor bearing 6205-2RS">Motor bearing 6205-2RS</td><td data-key="onHand" data-value="67400">$67,400</td><td data-key="days" data-value="349">349d</td><td data-key="writeOff" data-value="3900">$3,900</td><td data-key="share" data-value="0.10107978404319136">10.1%</td></tr>
+<tr data-sku="SKU-1194"><td data-key="sku" data-value="SKU-1194">SKU-1194</td><td data-key="name" data-value="Gasket set G-330">Gasket set G-330</td><td data-key="onHand" data-value="62800">$62,800</td><td data-key="days" data-value="252">252d</td><td data-key="writeOff" data-value="0">$0</td><td data-key="share" data-value="0.09418116376724656">9.4%</td></tr>
+<tr data-sku="SKU-5528"><td data-key="sku" data-value="SKU-5528">SKU-5528</td><td data-key="name" data-value="Solenoid valve SV-14">Solenoid valve SV-14</td><td data-key="onHand" data-value="60700">$60,700</td><td data-key="days" data-value="504">504d</td><td data-key="writeOff" data-value="2400">$2,400</td><td data-key="share" data-value="0.09103179364127174">9.1%</td></tr>
+<tr data-sku="SKU-8831"><td data-key="sku" data-value="SKU-8831">SKU-8831</td><td data-key="name" data-value="Coupling sleeve CS-7">Coupling sleeve CS-7</td><td data-key="onHand" data-value="56300">$56,300</td><td data-key="days" data-value="282">282d</td><td data-key="writeOff" data-value="2300">$2,300</td><td data-key="share" data-value="0.08443311337732454">8.4%</td></tr>
+<tr data-sku="SKU-3066"><td data-key="sku" data-value="SKU-3066">SKU-3066</td><td data-key="name" data-value="O-ring assortment OR-200">O-ring assortment OR-200</td><td data-key="onHand" data-value="49500">$49,500</td><td data-key="days" data-value="372">372d</td><td data-key="writeOff" data-value="900">$900</td><td data-key="share" data-value="0.07423515296940612">7.4%</td></tr>
+<tr data-sku="SKU-6410"><td data-key="sku" data-value="SKU-6410">SKU-6410</td><td data-key="name" data-value="Pump impeller P-55">Pump impeller P-55</td><td data-key="onHand" data-value="43000">$43,000</td><td data-key="days" data-value="243">243d</td><td data-key="writeOff" data-value="0">$0</td><td data-key="share" data-value="0.0644871025794841">6.4%</td></tr>
+<tr data-sku="SKU-1907"><td data-key="sku" data-value="SKU-1907">SKU-1907</td><td data-key="name" data-value="Sensor harness SH-8">Sensor harness SH-8</td><td data-key="onHand" data-value="35900">$35,900</td><td data-key="days" data-value="318">318d</td><td data-key="writeOff" data-value="2000">$2,000</td><td data-key="share" data-value="0.05383923215356928">5.4%</td></tr>
+<tr data-sku="SKU-8255"><td data-key="sku" data-value="SKU-8255">SKU-8255</td><td data-key="name" data-value="Belt drive B-42">Belt drive B-42</td><td data-key="onHand" data-value="32000">$32,000</td><td data-key="days" data-value="487">487d</td><td data-key="writeOff" data-value="1300">$1,300</td><td data-key="share" data-value="0.04799040191961608">4.8%</td></tr>
+<tr data-sku="SKU-4789"><td data-key="sku" data-value="SKU-4789">SKU-4789</td><td data-key="name" data-value="Heat exchanger plate HX-3">Heat exchanger plate HX-3</td><td data-key="onHand" data-value="27300">$27,300</td><td data-key="days" data-value="251">251d</td><td data-key="writeOff" data-value="0">$0</td><td data-key="share" data-value="0.040941811637672465">4.1%</td></tr>
+<tr data-sku="SKU-2103"><td data-key="sku" data-value="SKU-2103">SKU-2103</td><td data-key="name" data-value="Lubricant cartridge LC-12">Lubricant cartridge LC-12</td><td data-key="onHand" data-value="24800">$24,800</td><td data-key="days" data-value="292">292d</td><td data-key="writeOff" data-value="1000">$1,000</td><td data-key="share" data-value="0.03719256148770246">3.7%</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer>
+      <p>Sample source data: <a href="data/slob.json"><code>data/slob.json</code></a>. Re-render with <code>node scripts/render-static.js</code>.</p>
+    </footer>
+  </div>
+  <script src="js/slob.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>
