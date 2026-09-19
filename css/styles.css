@@ -141,9 +141,13 @@ h2 {
 
 .mix-row {
   display: grid;
-  grid-template-columns: minmax(160px, 280px) 1fr 72px minmax(160px, auto);
+  grid-template-columns: minmax(240px, 340px) 1fr 72px minmax(160px, auto);
   gap: 8px 12px;
   align-items: center;
+}
+
+.mix-row > div:first-child {
+  line-height: 1.3;
 }
 
 .mix-bar {
